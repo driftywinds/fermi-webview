@@ -8,12 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-<<<<<<< Updated upstream
     permissions:
       contents: write
-    permissions:
-      contents: write
-
     steps:
     - uses: actions/checkout@v3
 
