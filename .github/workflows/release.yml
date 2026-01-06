@@ -11,12 +11,9 @@ jobs:
 <<<<<<< Updated upstream
     permissions:
       contents: write
-=======
-
     permissions:
       contents: write
 
->>>>>>> Stashed changes
     steps:
     - uses: actions/checkout@v3
 
