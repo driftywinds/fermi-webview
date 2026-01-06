@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         setupWebViewSettings()
         checkRuntimePermissions()
 
-        webView.loadUrl("https://fermi.003274.xyz")
+        webView.loadUrl("https://fermi.003274.xyz/channels/@me")
     }
 
     private fun setupWebViewSettings() {

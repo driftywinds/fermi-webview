@@ -23,7 +23,7 @@ jobs:
       env:
         ENCODED_KEYSTORE: ${{ secrets.KEYSTORE_BASE64 }}
       run: |
-        echo $ENCODED_KEYSTORE | base64 -di > app/my-release-key.jks
+        echo $ENCODED_KEYSTORE | base64 -di > app/fermi.jks
 
     - name: Build Release APK
       env:
