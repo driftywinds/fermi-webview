@@ -58,6 +58,8 @@ class MainActivity : AppCompatActivity() {
     private fun setupWebViewSettings() {
         webView.settings.apply {
             javaScriptEnabled = true
+            cacheMode = WebSettings.LOAD_DEFAULT // Uses cache if available, else network
+            databaseEnabled = true
             domStorageEnabled = true
             allowFileAccess = true
             mediaPlaybackRequiresUserGesture = false
