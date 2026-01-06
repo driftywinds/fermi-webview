@@ -8,8 +8,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+<<<<<<< Updated upstream
     permissions:
       contents: write
+=======
+
+    permissions:
+      contents: write
+
+>>>>>>> Stashed changes
     steps:
     - uses: actions/checkout@v3
 
